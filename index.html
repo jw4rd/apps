@@ -1,0 +1,205 @@
+<html>
+
+<head>
+<title>apps</title>
+<meta charset="UTF-8">
+<meta name="description" content="cad/cam web applications">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<a id="about-link" href="javascript:about()">about</a>
+
+<div id="about">
+	<div id='contact'></div>
+		<center>
+		<p>
+		<button onclick="about()" id="close-button">
+		<b>close</b>
+		</button>
+		</center>
+	</div>
+</div>
+
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-birdhouse-app/"><img src = "http://fabmo.github.io/fabmo-birdhouse-app/icon.png" class="img"></a>
+	<br>
+	BIRDHOUSE
+	<div class="description">
+		parametric birdhouse
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-brickmaker-app/"><img src = "http://fabmo.github.io/fabmo-brickmaker-app/icon.png" class="img"></a>
+	<br>
+	BRICK MAKER
+	<div class="description">
+		mill custom two-part molds for snap-together bricks
+	</div>
+</div>
+
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-cad-app/"><img src = "http://fabmo.github.io/fabmo-cad-app/icon.png" class="img"></a>
+	<br>
+	CAD
+	<div class="description">
+		CAD/CAM web app for 3 axis CNC routers
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-cardboard-app/"><img src = "http://fabmo.github.io/fabmo-cardboard-app/icon.png" class="img"></a>
+	<br>
+	CARDBOARD
+	<div class="description">
+		convert SVG to ShopBot cardboard cutting file
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-framemaker-app/"><img src = "http://fabmo.github.io/fabmo-framemaker-app/icon.png" class="img"></a>
+	<br>
+	FRAME MAKER
+	<div class="description">
+		parametric frame generator with gcode output
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-graffiti-app/"><img src = "http://fabmo.github.io/fabmo-graffiti-app/icon.png" class="img"></a>
+	<br>
+	GRAFFITI
+	<div class="description">
+		sketch to gcode
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-hershey-app/"><img src = "http://fabmo.github.io/fabmo-hershey-app/icon.png" class="img"></a>
+	<br>
+	HERSHEY FONTS
+	<div class="description">
+		mill custom tags with Hershey fonts
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-imagetrace-app/"><img src = "http://fabmo.github.io/fabmo-imagetrace-app/icon.png" class="img"></a>
+	<br>
+	IMAGE TRACE
+	<div class="description">
+		raster to vector image tracer
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-picperf-app/"><img src = "http://fabmo.github.io/fabmo-picperf-app/icon.png" class="img"></a>
+	<br>
+	PIC PERF
+	<div class="description">
+		image to shape array
+	</div>
+</div>
+
+<div class="icon">	
+	<a href="http://fabmo.github.io/fabmo-shapemaker-app/"><img src = "http://fabmo.github.io/fabmo-shapemaker-app/icon.png" class="img"></a>
+	<br>
+	SHAPE MAKER
+	<div class="description">
+		engrave simple shapes 
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://jw4rd.github.io/shieldMill"><img src = "http://jw4rd.github.io/shieldMill/icon.png" class="img"></a>
+	<br>
+	SHIELD
+	<div class="description">
+		design and machine custom circuit boards
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-stampmaker-app/"><img src = "http://fabmo.github.io/fabmo-stampmaker-app/icon.png" class="img"></a>
+	<br>
+	STAMP MAKER
+	<div class="description">
+		make custom print blocks with text
+	</div>
+</div>
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-svgcode-app/"><img src = "http://fabmo.github.io/fabmo-svgcode-app/icon.png" class="img"></a>
+	<br>
+	SVGCODE
+	<div class="description">
+		simple SVG to gcode converter
+	</div>
+</div>
+
+
+
+<div class="icon">
+	<a href="https://jw4rd.github.io/table"><img src = "https://jw4rd.github.io/table/icon.png" class="img"></a>
+	<br>
+	TABLE MAKER
+	<div class="description">
+		design and make a custom table 
+	</div>
+</div>
+
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-txtengraver-app/"><img src = "http://fabmo.github.io/fabmo-txtengraver-app/icon.png" class="img"></a>
+	<br>
+	TXT ENGRAVER
+	<div class="description">
+		font to gcode text engraving app 
+	</div>
+</div>
+
+
+<div class="icon">
+	<a href="http://fabmo.github.io/fabmo-txtmaker-app/"><img src = "http://fabmo.github.io/fabmo-txtmaker-app/icon.png" class="img"></a>
+	<br>
+	TXT MAKER
+	<div class="description">
+		font to gcode text cutting app
+	</div>
+</div>
+
+
+
+ 
+</body>
+
+<script type="text/javascript">
+
+var description ="CNC web apps <p>Jonathan Ward"
+
+var div = document.getElementById('about')
+
+document.getElementById('contact').innerHTML = description
+
+div.style.height="320px"
+
+
+function about(){
+	
+	if (div.style.display == 'block') {
+		div.style.display = 'none'
+	}
+	else {
+		div.style.display = 'block'
+	}
+}
+
+
+</script>
+
+</html>
